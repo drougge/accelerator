@@ -1,25 +1,16 @@
+Development repository!
+=======================
+
+This is a dev repo, I will force push over it.
+
+You probably want [the main repo](https://github.com/eBay/accelerator).
+
 The Accelerator is a tool for fast and reproducible processing of large amounts of data.
 Extensive documentation is available here:
 
 [Reference Manual](https://berkeman.github.io/pdf/acc_manual.pdf)  
 [Home Page](https://exax.org/)  
 [PyPI](https://pypi.org/project/accelerator/)  
-
-`pip install accelerator`  
-After installation try "`ax --help`".
-
-
-Supported Environments
-----------------------
-
-The Accelerator project has been built, tested, and runs on:
- - Ubuntu 16.04, 18.04, 20.04
- - Debian 9, 10
- - FreeBSD 11.3, 12.1
-
-but is not limited to these systems or versions.
-
-Windows is not supported, but WSL should work.
 
 
 License
