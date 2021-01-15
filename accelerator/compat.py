@@ -38,7 +38,7 @@ if sys.version_info[0] == 2:
 	import __builtin__ as builtins
 	import cPickle as pickle
 	FileNotFoundError = builtins.OSError
-	from urllib import quote_plus, unquote_plus, urlencode
+	from urllib import quote as url_quote, quote_plus, unquote_plus, urlencode
 	from urllib2 import urlopen, Request, URLError, HTTPError
 	from itertools import izip, izip_longest, imap, ifilter
 	from Queue import Queue, Full as QueueFull, Empty as QueueEmpty
@@ -84,7 +84,7 @@ else:
 	import builtins
 	FileNotFoundError = builtins.FileNotFoundError
 	import pickle
-	from urllib.parse import quote_plus, unquote_plus
+	from urllib.parse import quote as url_quote, quote_plus, unquote_plus
 	from urllib.request import urlopen, Request
 	from urllib.error import URLError, HTTPError
 	izip = zip

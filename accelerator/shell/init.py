@@ -125,7 +125,6 @@ def main(argv):
 
 	assert options.name
 	assert '/' not in options.name
-	assert ' ' not in options.name
 	if not options.input.startswith('#'):
 		options.input = quote(realpath(options.input))
 	prefix = realpath(options.directory)
